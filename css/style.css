@@ -1,0 +1,95 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+  --text-white: hsla(0, 0%, 100%, 0.75);
+  --text-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, p, a {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--text-white);
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.5rem;
+  font-size: .875rem;
+  max-width: 345px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: .875rem;
+  border: 1px solid white;
+  padding: .85rem;
+  margin: 1.5rem 0 0;
+  display: block;
+  border-radius: 5rem;
+  width: 64%;
+  max-width: 210px;
+  min-width: 140px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  background: var(--text-gray);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.4rem;
+  margin: 1.5rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--text-gray);
+  color: var(--text-gray);
+  border-radius: .6rem;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.container section {
+  padding: 3rem;
+}
+
+.sedans {
+  background: var(--orange);
+  flex: auto;
+}
+
+.sedans a {
+  color: var(--orange);
+}
+
+.suvs {
+  background: var(--cyan);
+  flex: auto;
+}
+
+.suvs a {
+  color: var(--cyan);
+}
+
+.luxury {
+  background: var(--dark-cyan);
+  flex: auto;
+}
+
+.luxury a {
+  color: var(--dark-cyan);
+}
