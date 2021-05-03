@@ -10,7 +10,8 @@ The challenge was to build out this 3-column preview card component as shown in 
 
 Here's the link to check the live preview site:
 
-- [Live Preview](https://pages.github.com/)
+- [Live Preview](https://3-column-card-01.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b52a7d1d-c151-41a4-ac30-1a9434325d4a/deploy-status)](https://app.netlify.com/sites/3-column-card-01/deploys)
 
 ### Built with
 
